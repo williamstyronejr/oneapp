@@ -1,4 +1,4 @@
-import { Providers } from "../components/Providers";
+import { Providers } from '../components/Providers';
 
 export default function Root() {
   return (
