@@ -1,0 +1,24 @@
+{
+  "name": "oneapp",
+  "version": "0.0.1",
+  "description": "One app to rule them all!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/williamstyronejr/oneapp.git"
+  },
+  "author": "",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/williamstyronejr/oneapp/issues"
+  },
+  "homepage": "https://github.com/williamstyronejr/oneapp#readme",
+  "workspaces": [
+    "apps/desktop",
+    "apps/mobile",
+    "apps/web"
+  ]
+}
